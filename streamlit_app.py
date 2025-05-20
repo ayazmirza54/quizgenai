@@ -11,7 +11,7 @@ from google.genai import types
 #   export GEMINI_API_KEY="YOUR_KEY"
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-MODEL_NAME = "gemini-2.5-pro-preview-05-06"
+MODEL_NAME = "gemini-2.5-flash-preview-04-17"
 
 # ——————————————————————————
 # AI-powered question generation using latest Gemini streaming API
